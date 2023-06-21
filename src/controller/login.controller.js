@@ -2,12 +2,12 @@
  * @Author: Crayon 3037686283@qq.com
  * @Date: 2023-06-20 11:22:47
  * @LastEditors: Crayon 3037686283@qq.com
- * @LastEditTime: 2023-06-20 15:30:07
+ * @LastEditTime: 2023-06-20 18:50:38
  * @FilePath: \高级JavaScript\crayonWeb\src\controller\login.controller.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 const jwt = require('jsonwebtoken')
-const { PRIVATE_KEY, PUBLIC_KEY } = require('../config/secret')
+const { PRIVATE_KEY } = require('../config/secret')
 // const { UNAUTHORIZATION } = require('../config/error-config')
 
 class LoginController {
