@@ -2,7 +2,7 @@
  * @Author: Crayon 3037686283@qq.com
  * @Date: 2023-05-31 19:11:29
  * @LastEditors: Crayon 3037686283@qq.com
- * @LastEditTime: 2023-06-20 15:06:38
+ * @LastEditTime: 2023-06-21 14:10:12
  * @FilePath: \高级JavaScript\crayonWeb\src\config\error-config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -11,11 +11,13 @@ const USERNAME_ALREADY_EXISTS = 'name_or_password_is_required'
 const NAME_IS_NOT_EXISTS = 'name_is_not_exists'
 const PASSWORD_IS_INCORRECT = 'password_is_incorrect'
 const UNAUTHORIZATION = 'unauthorization'
+const OPERATION_IS_NOT_ALLOWED = 'operation_is_not_allowed'
 
 module.exports = {
   NAME_OR_PASSWORD_IS_REQUIRED,
   USERNAME_ALREADY_EXISTS,
   NAME_IS_NOT_EXISTS,
   PASSWORD_IS_INCORRECT,
-  UNAUTHORIZATION
+  UNAUTHORIZATION,
+  OPERATION_IS_NOT_ALLOWED
 }

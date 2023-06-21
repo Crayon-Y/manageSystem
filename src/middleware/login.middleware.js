@@ -55,18 +55,17 @@ const verifyAuth = async (ctx, next) => {
     const result = jwt.verify(token, PUBLIC_KEY, {
       algorithms: ['RS256']
     })  
-    console.log(3)
     // 将获取的token信息保留下来
     ctx.user = result
 
-    console.log(result, 'result')
+    // console.log(result, 'result')
 
     // ctx.body = `interface can be requested`
     // 执行下一个中间件
     await next()
   } catch (error) {
 
-    console.log(error, 2)
+    // console.log(error, 2)
     ctx.app.emit('error1', UNAUTHORIZATION, ctx)
   }  
 }
